@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 require("./db/conn");
 const users = require("./model/userSchema")
 const cors = require("cors")
-const port = process.env.PORT || 8005
+const port = 8005
 const router = require("./router/router")
 const cookieParser = require("cookie-parser")
 require("dotenv").config()
