@@ -9,6 +9,7 @@ const router = require("./router/router")
 const cookieParser = require("cookie-parser")
 require("dotenv").config()
 const authenticate = require("./middleware/authenticat")
+
 require('dotenv').config();
 app.use(cors());
 app.use(cookieParser(""))
